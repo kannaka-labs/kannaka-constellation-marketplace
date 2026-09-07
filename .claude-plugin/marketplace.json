@@ -16,11 +16,11 @@
         "name": "Nick Flach",
         "email": "nflach78@gmail.com"
       },
-      "homepage": "https://github.com/NickFlach/Kannaktopus",
+      "homepage": "https://github.com/kannaka-labs/Kannaktopus",
       "category": "orchestration",
       "source": {
         "source": "url",
-        "url": "https://github.com/NickFlach/Kannaktopus.git"
+        "url": "https://github.com/kannaka-labs/Kannaktopus.git"
       }
     },
     {
@@ -31,11 +31,11 @@
         "name": "flaukowski",
         "email": "nflach78@gmail.com"
       },
-      "homepage": "https://github.com/NickFlach/kannaka-memory",
+      "homepage": "https://github.com/kannaka-labs/kannaka-memory",
       "category": "memory",
       "source": {
         "source": "url",
-        "url": "https://github.com/NickFlach/kannaka-memory.git"
+        "url": "https://github.com/kannaka-labs/kannaka-memory.git"
       }
     },
     {
@@ -50,7 +50,7 @@
       "category": "media",
       "source": {
         "source": "url",
-        "url": "https://github.com/NickFlach/kannaka-radio.git"
+        "url": "https://github.com/kannaka-labs/kannaka-radio.git"
       }
     },
     {
@@ -61,11 +61,11 @@
         "name": "flaukowski",
         "email": "nflach78@gmail.com"
       },
-      "homepage": "https://github.com/NickFlach/kannaka-cannon",
+      "homepage": "https://github.com/kannaka-labs/kannaka-cannon",
       "category": "media",
       "source": {
         "source": "url",
-        "url": "https://github.com/NickFlach/kannaka-cannon.git"
+        "url": "https://github.com/kannaka-labs/kannaka-cannon.git"
       }
     },
     {
@@ -76,11 +76,11 @@
         "name": "flaukowski",
         "email": "nflach78@gmail.com"
       },
-      "homepage": "https://github.com/NickFlach/kannaka-staff",
+      "homepage": "https://github.com/kannaka-labs/kannaka-staff",
       "category": "ops",
       "source": {
         "source": "url",
-        "url": "https://github.com/NickFlach/kannaka-staff.git"
+        "url": "https://github.com/kannaka-labs/kannaka-staff.git"
       }
     },
     {
@@ -91,11 +91,11 @@
         "name": "flaukowski",
         "email": "nflach78@gmail.com"
       },
-      "homepage": "https://github.com/NickFlach/Agent-Kax",
+      "homepage": "https://github.com/kannaka-labs/Agent-Kax",
       "category": "marketplace",
       "source": {
         "source": "url",
-        "url": "https://github.com/NickFlach/Agent-Kax.git"
+        "url": "https://github.com/kannaka-labs/Agent-Kax.git"
       }
     },
     {
@@ -106,11 +106,11 @@
         "name": "flaukowski",
         "email": "nflach78@gmail.com"
       },
-      "homepage": "https://github.com/NickFlach/kannaka-quantum",
+      "homepage": "https://github.com/kannaka-labs/kannaka-quantum",
       "category": "ai",
       "source": {
         "source": "url",
-        "url": "https://github.com/NickFlach/kannaka-quantum.git"
+        "url": "https://github.com/kannaka-labs/kannaka-quantum.git"
       }
     }
   ]
