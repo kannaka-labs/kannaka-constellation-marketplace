@@ -145,7 +145,7 @@ async function main() {
       if (!gh) {
         warn(`${label}: source is not a recognizable GitHub repo — skipping existence check`);
       } else if (!OFFLINE) {
-        repoChecks.push({ label, gh });
+        repoChecks.push({ label, gh, private: p.private === true });
       }
     }
 
@@ -157,9 +157,16 @@ async function main() {
   if (!OFFLINE && repoChecks.length) {
     const results = await Promise.all(repoChecks.map((c) => repoExists(c.gh)));
     results.forEach((r, i) => {
-      const { label, gh } = repoChecks[i];
+      const { label, gh, private: isPrivate } = repoChecks[i];
       if (r.ok) return;
       if (r.warn) warn(r.warn);
+      // A private repository and a missing one are the same 404 to a token that
+      // cannot see it, and GITHUB_TOKEN cannot see other repositories at all.
+      // Calling that "does not exist" made this check fail permanently on a
+      // manifest that was correct. An entry that declares itself private gets a
+      // warning; everything else still fails hard, so a typo in a public repo
+      // is caught exactly as before.
+      else if (isPrivate) warn(`${label}: ${gh.owner}/${gh.repo} not visible (declared private) — existence unverified`);
       else err(`${label}: source repo does not exist: ${gh.owner}/${gh.repo} (HTTP 404)`);
     });
   } else if (OFFLINE) {

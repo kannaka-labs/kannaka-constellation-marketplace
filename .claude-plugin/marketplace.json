@@ -16,11 +16,11 @@
         "name": "Nick Flach",
         "email": "nflach78@gmail.com"
       },
-      "homepage": "https://github.com/kannaka-labs/Kannaktopus",
+      "homepage": "https://github.com/NickFlach/Kannaktopus",
       "category": "orchestration",
       "source": {
         "source": "url",
-        "url": "https://github.com/kannaka-labs/Kannaktopus.git"
+        "url": "https://github.com/NickFlach/Kannaktopus.git"
       }
     },
     {
@@ -91,6 +91,7 @@
         "name": "flaukowski",
         "email": "nflach78@gmail.com"
       },
+      "private": true,
       "homepage": "https://github.com/kannaka-labs/Agent-Kax",
       "category": "marketplace",
       "source": {
