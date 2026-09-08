@@ -16,11 +16,11 @@
         "name": "Nick Flach",
         "email": "nflach78@gmail.com"
       },
-      "homepage": "https://github.com/NickFlach/Kannaktopus",
+      "homepage": "https://github.com/kannaka-labs/Kannaktopus",
       "category": "orchestration",
       "source": {
         "source": "url",
-        "url": "https://github.com/NickFlach/Kannaktopus.git"
+        "url": "https://github.com/kannaka-labs/Kannaktopus.git"
       }
     },
     {
