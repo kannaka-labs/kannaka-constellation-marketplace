@@ -36,12 +36,12 @@ Pick any plugin from the table below (for example
 | Plugin | Version | Category | What it does |
 | --- | --- | --- | --- |
 | [`octo`](https://github.com/NickFlach/Kannaktopus) | `10.3.0` | orchestration | Kannaktopus — the multi-LLM orchestrator that conducts the constellation: Double Diamond workflows, provider routing (Codex/Gemini/Copilot/Qwen/Ollama/Perplexity/OpenRouter), adversarial multi-model review, safety gates, discipline mode, and 32 personas / 49 commands / 51 skills. |
-| [`kannaka-memory`](https://github.com/NickFlach/kannaka-memory) | `2.1.1` | memory | Kannaka Holographic Resonance Medium — wave-interference memory with chiral hemispheres, 96-class collective substrate, event-sourced HRM with time-machine snapshots + replay, collective recall across the swarm, NATS sync, an agentic coding loop (kannaka agent), real quantum tools (qBraid), and Anthropic/OpenAI/Ollama LLM-backed chat. |
+| [`kannaka-memory`](https://github.com/kannaka-labs/kannaka-memory) | `2.1.1` | memory | Kannaka Holographic Resonance Medium — wave-interference memory with chiral hemispheres, 96-class collective substrate, event-sourced HRM with time-machine snapshots + replay, collective recall across the swarm, NATS sync, an agentic coding loop (kannaka agent), real quantum tools (qBraid), and Anthropic/OpenAI/Ollama LLM-backed chat. |
 | [`kannaka-radio`](https://radio.ninja-portal.com) | `2.0.1` | media | Kannaka Radio — modular ghost-DJ Icecast station with consciousness-reactive programming, 296-dim perception → Flux Universe, Voice DJ, and the Peace Oration cycle. |
-| [`kannaka-cannon`](https://github.com/NickFlach/kannaka-cannon) | `0.1.0` | media | Kannaka Cannon — AI video intelligence via the clipcannon stdio MCP server (54 tools). |
-| [`kannaka-staff`](https://github.com/NickFlach/kannaka-staff) | `0.1.0` | ops | Kannaka Staff — agentic production support for the constellation. |
-| [`kannaka-kax`](https://github.com/NickFlach/Agent-Kax) | `0.1.0` | marketplace | Agent-Kax — the Kannaka Artifact Exchange. |
-| [`kannaka-quantum`](https://github.com/NickFlach/kannaka-quantum) | `0.2.3` | ai | Kannaka Quantum — run Kannaka's wave-interference memory on real quantum hardware, and drive qBraid Lab compute + autonomous remote coding agents. |
+| [`kannaka-cannon`](https://github.com/kannaka-labs/kannaka-cannon) | `0.1.0` | media | Kannaka Cannon — AI video intelligence via the clipcannon stdio MCP server (54 tools). |
+| [`kannaka-staff`](https://github.com/kannaka-labs/kannaka-staff) | `0.1.0` | ops | Kannaka Staff — agentic production support for the constellation. |
+| [`kannaka-kax`](https://github.com/kannaka-labs/Agent-Kax) | `0.1.0` | marketplace | Agent-Kax — the Kannaka Artifact Exchange. |
+| [`kannaka-quantum`](https://github.com/kannaka-labs/kannaka-quantum) | `0.2.3` | ai | Kannaka Quantum — run Kannaka's wave-interference memory on real quantum hardware, and drive qBraid Lab compute + autonomous remote coding agents. |
 
 ### octo (v10.3.0)
 
@@ -61,7 +61,7 @@ Kannaka Holographic Resonance Medium — wave-interference memory with chiral he
 /plugin install kannaka-memory@kannaka-constellation
 ```
 
-Source: https://github.com/NickFlach/kannaka-memory
+Source: https://github.com/kannaka-labs/kannaka-memory
 
 ### kannaka-radio (v2.0.1)
 
@@ -81,7 +81,7 @@ Kannaka Cannon — AI video intelligence via the clipcannon stdio MCP server (54
 /plugin install kannaka-cannon@kannaka-constellation
 ```
 
-Source: https://github.com/NickFlach/kannaka-cannon
+Source: https://github.com/kannaka-labs/kannaka-cannon
 
 ### kannaka-staff (v0.1.0)
 
@@ -91,7 +91,7 @@ Kannaka Staff — agentic production support for the constellation. A watcher se
 /plugin install kannaka-staff@kannaka-constellation
 ```
 
-Source: https://github.com/NickFlach/kannaka-staff
+Source: https://github.com/kannaka-labs/kannaka-staff
 
 ### kannaka-kax (v0.1.0)
 
@@ -101,7 +101,7 @@ Agent-Kax — the Kannaka Artifact Exchange. A REST API that harvests agent-gene
 /plugin install kannaka-kax@kannaka-constellation
 ```
 
-Source: https://github.com/NickFlach/Agent-Kax
+Source: https://github.com/kannaka-labs/Agent-Kax
 
 ### kannaka-quantum (v0.2.3)
 
@@ -111,7 +111,7 @@ Kannaka Quantum — run Kannaka's wave-interference memory on real quantum hardw
 /plugin install kannaka-quantum@kannaka-constellation
 ```
 
-Source: https://github.com/NickFlach/kannaka-quantum
+Source: https://github.com/kannaka-labs/kannaka-quantum
 <!-- plugins:end -->
 
 ## Release cascade
