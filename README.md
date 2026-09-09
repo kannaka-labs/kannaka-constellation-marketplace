@@ -160,3 +160,7 @@ Both are zero-dependency Node scripts; run them locally with
 - Marketplace: https://github.com/NickFlach/kannaka-constellation-marketplace
 - kannaka-memory: https://github.com/NickFlach/kannaka-memory
 - kannaka-radio: https://github.com/NickFlach/kannaka-radio
+
+## License
+
+[Space Child License v1.0](https://legal.spacechild.love/license) — source-available and peace-conditional: free for peaceful, humanitarian, commercial and defensive use; withheld for the uses in its Peace Clause. See `LICENSE` and `NOTICE`.
