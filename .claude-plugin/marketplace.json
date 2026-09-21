@@ -61,6 +61,7 @@
         "name": "flaukowski",
         "email": "nflach78@gmail.com"
       },
+      "private": true,
       "homepage": "https://github.com/kannaka-labs/kannaka-cannon",
       "category": "media",
       "source": {
