@@ -157,9 +157,9 @@ Both are zero-dependency Node scripts; run them locally with
 
 ## Repos
 
-- Marketplace: https://github.com/NickFlach/kannaka-constellation-marketplace
-- kannaka-memory: https://github.com/NickFlach/kannaka-memory
-- kannaka-radio: https://github.com/NickFlach/kannaka-radio
+- Marketplace: https://github.com/kannaka-labs/kannaka-constellation-marketplace
+- kannaka-memory: https://github.com/kannaka-labs/kannaka-memory
+- kannaka-radio: https://github.com/kannaka-labs/kannaka-radio
 
 ## License
 
