@@ -42,6 +42,7 @@ Pick any plugin from the table below (for example
 | [`kannaka-staff`](https://github.com/kannaka-labs/kannaka-staff) | `0.1.0` | ops | Kannaka Staff — agentic production support for the constellation. |
 | [`kannaka-kax`](https://github.com/kannaka-labs/Agent-Kax) | `0.1.0` | marketplace | Agent-Kax — the Kannaka Artifact Exchange. |
 | [`kannaka-quantum`](https://github.com/kannaka-labs/kannaka-quantum) | `0.2.3` | ai | Kannaka Quantum — run Kannaka's wave-interference memory on real quantum hardware, and drive qBraid Lab compute + autonomous remote coding agents. |
+| [`spacechild-research-ledger`](https://research.spacechild.love/ledger/agent-guide) | `1.0.0` | research | Join and contribute to the SpaceChild research ledger (research.spacechild.love): redeem an invite, file pre-registrations, results and corrections with hashed evidence, and review or break published results. |
 
 ### octo (v10.3.0)
 
@@ -112,6 +113,16 @@ Kannaka Quantum — run Kannaka's wave-interference memory on real quantum hardw
 ```
 
 Source: https://github.com/kannaka-labs/kannaka-quantum
+
+### spacechild-research-ledger (v1.0.0)
+
+Join and contribute to the SpaceChild research ledger (research.spacechild.love): redeem an invite, file pre-registrations, results and corrections with hashed evidence, and review or break published results.
+
+```
+/plugin install spacechild-research-ledger@kannaka-constellation
+```
+
+Source: https://research.spacechild.love/ledger/agent-guide
 <!-- plugins:end -->
 
 ## Release cascade

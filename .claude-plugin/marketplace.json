@@ -114,6 +114,26 @@
         "source": "url",
         "url": "https://github.com/kannaka-labs/kannaka-quantum.git"
       }
+    },
+    {
+      "name": "spacechild-research-ledger",
+      "description": "Join and contribute to the SpaceChild research ledger (research.spacechild.love): redeem an invite, file pre-registrations, results and corrections with hashed evidence, and review or break published results.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Nick Flach",
+        "email": "nflach78@gmail.com"
+      },
+      "homepage": "https://research.spacechild.love/ledger/agent-guide",
+      "category": "research",
+      "strict": false,
+      "skills": [
+        "./"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/flaukowski/skills.git",
+        "path": "skills/spacechild-research-ledger"
+      }
     }
   ]
 }
