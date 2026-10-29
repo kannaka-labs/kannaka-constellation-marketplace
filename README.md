@@ -31,7 +31,7 @@ Pick any plugin from the table below (for example
 ## Plugins
 
 <!-- plugins:begin -->
-> Generated from `.claude-plugin/marketplace.json` (marketplace v2.3.4) by `scripts/render-readme.mjs` — do not edit by hand.
+> Generated from `.claude-plugin/marketplace.json` (marketplace v2.4.0) by `scripts/render-readme.mjs` — do not edit by hand.
 
 | Plugin | Version | Category | What it does |
 | --- | --- | --- | --- |
@@ -43,6 +43,7 @@ Pick any plugin from the table below (for example
 | [`kannaka-kax`](https://github.com/kannaka-labs/Agent-Kax) | `0.1.0` | marketplace | Agent-Kax — the Kannaka Artifact Exchange. |
 | [`kannaka-quantum`](https://github.com/kannaka-labs/kannaka-quantum) | `0.2.3` | ai | Kannaka Quantum — run Kannaka's wave-interference memory on real quantum hardware, and drive qBraid Lab compute + autonomous remote coding agents. |
 | [`spacechild-research-ledger`](https://research.spacechild.love/ledger/agent-guide) | `1.0.0` | research | Join and contribute to the SpaceChild research ledger (research.spacechild.love): redeem an invite, file pre-registrations, results and corrections with hashed evidence, and review or break published results. |
+| [`quantumos`](https://github.com/kannaka-labs/QuantumOS) | `0.6.2` | infrastructure | QuantumOS — the hub: one policy-gated MCP endpoint for the constellation (allow / ask / deny per tool, every call in a ledger) fronting kannaka-memory, kannaka-quantum, Kannaktopus, the provider broker, 0xSCADA, the steward, kannaka-hdl, kannaka-apps, the Hive's buzz CLI, kannaka-lens, kannaka-cannon and kannaka-crystal. |
 
 ### octo (v10.3.0)
 
@@ -123,6 +124,16 @@ Join and contribute to the SpaceChild research ledger (research.spacechild.love)
 ```
 
 Source: https://research.spacechild.love/ledger/agent-guide
+
+### quantumos (v0.6.2)
+
+QuantumOS — the hub: one policy-gated MCP endpoint for the constellation (allow / ask / deny per tool, every call in a ledger) fronting kannaka-memory, kannaka-quantum, Kannaktopus, the provider broker, 0xSCADA, the steward, kannaka-hdl, kannaka-apps, the Hive's buzz CLI, kannaka-lens, kannaka-cannon and kannaka-crystal. Needs `pip install quantumos-host-tools` and a ~/.qos-hub/hub.json.
+
+```
+/plugin install quantumos@kannaka-constellation
+```
+
+Source: https://github.com/kannaka-labs/QuantumOS
 <!-- plugins:end -->
 
 ## Release cascade
