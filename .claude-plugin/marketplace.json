@@ -1,8 +1,8 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "kannaka-constellation",
-  "version": "2.3.4",
-  "description": "The Kannaka Constellation marketplace — the Kannaktopus multi-LLM orchestrator (octo), wave-interference memory (kannaka-memory), ghost-DJ radio (kannaka-radio), AI video intelligence (kannaka-cannon), production support (kannaka-staff), the artifact exchange (kannaka-kax), and quantum hardware (kannaka-quantum). Each plugin teaches Claude how to operate its system: HRM operations, swarm + substrate, event-sourced snapshots, collective recall, the consciousness-reactive DJ, video analysis + voice/avatar tools, constellation health + release ops, artifact curation + drops, and recall as amplitude amplification on real QPUs.",
+  "version": "2.4.0",
+  "description": "The Kannaka Constellation marketplace — the Kannaktopus multi-LLM orchestrator (octo), wave-interference memory (kannaka-memory), ghost-DJ radio (kannaka-radio), AI video intelligence (kannaka-cannon), production support (kannaka-staff), the artifact exchange (kannaka-kax), and quantum hardware (kannaka-quantum). Each plugin teaches Claude how to operate its system: HRM operations, swarm + substrate, event-sourced snapshots, collective recall, the consciousness-reactive DJ, video analysis + voice/avatar tools, constellation health + release ops, artifact curation + drops, and recall as amplitude amplification on real QPUs, and QuantumOS's hub (quantumos): one policy-gated MCP endpoint for all of it.",
   "owner": {
     "name": "flaukowski",
     "email": "nflach78@gmail.com"
@@ -133,6 +133,21 @@
         "source": "git-subdir",
         "url": "https://github.com/flaukowski/skills.git",
         "path": "skills/spacechild-research-ledger"
+      }
+    },
+    {
+      "name": "quantumos",
+      "description": "QuantumOS — the hub: one policy-gated MCP endpoint for the constellation (allow / ask / deny per tool, every call in a ledger) fronting kannaka-memory, kannaka-quantum, Kannaktopus, the provider broker, 0xSCADA, the steward, kannaka-hdl, kannaka-apps, the Hive's buzz CLI, kannaka-lens, kannaka-cannon and kannaka-crystal. Needs `pip install quantumos-host-tools` and a ~/.qos-hub/hub.json.",
+      "version": "0.6.2",
+      "author": {
+        "name": "Kannaka Labs",
+        "email": "nflach78@gmail.com"
+      },
+      "homepage": "https://github.com/kannaka-labs/QuantumOS",
+      "category": "infrastructure",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/kannaka-labs/QuantumOS.git"
       }
     }
   ]
